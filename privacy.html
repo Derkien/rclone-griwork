@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>rclone-griwork — Privacy Policy</title>
+<style>
+  body{font-family:-apple-system,Segoe UI,Roboto,sans-serif;max-width:760px;margin:40px auto;padding:0 20px;line-height:1.6;color:#1f2328}
+  h1{font-size:1.6em} h2{font-size:1.2em;margin-top:1.6em}
+  code{background:#f0f2f5;padding:2px 6px;border-radius:4px}
+  a{color:#0969da} li{margin-bottom:6px}
+</style>
+</head>
+<body>
+<h1>Privacy Policy — rclone-griwork</h1>
+<p><em>Last updated: November 23, 2026</em></p>
+
+<p>This Privacy Policy describes how <strong>rclone-griwork</strong> (the "Application") handles
+data when used with Google Drive via the Google Drive API.</p>
+
+<h2>1. What the Application is</h2>
+<p>The Application is a private, personal-use OAuth client configuration for
+<a href="https://rclone.org">rclone</a>, an open-source command-line file synchronization
+tool. It is used by a single user — the owner of the associated Google account — to copy
+files from a local folder to their own Google Drive as a personal backup.</p>
+
+<h2>2. What Google user data is accessed</h2>
+<ul>
+  <li>The Application requests exactly one OAuth scope:
+  <code>https://www.googleapis.com/auth/drive.file</code> (per-file scope). Under this scope
+  the Application can only create and modify files that it created itself. It cannot read,
+  list, or modify any other files or folders on the user's Drive.</li>
+  <li>No other Google APIs, products, or user data (Gmail, Contacts, Photos, profile
+  information, etc.) are requested or accessed.</li>
+</ul>
+
+<h2>3. How the data is used</h2>
+<ul>
+  <li>Files are copied from the owner's local disk to the owner's own Drive storage at the
+  direction of the owner. The content of the files is chosen entirely by the owner.</li>
+  <li>No profiling, no analytics, no machine learning, no advertising use of data.</li>
+  <li>The Application does not generate AI-generated content and does not use Google APIs
+  for any prohibited purposes, including AI-generated non-consensual intimate imagery (AI NCII).</li>
+</ul>
+
+<h2>4. Data storage and retention</h2>
+<ul>
+  <li>Copied files are stored in the owner's own Google Drive. The owner can delete them at
+  any time from Drive; the Application does not retain independent copies on any server.</li>
+  <li>The OAuth access and refresh tokens are stored locally, on the owner's computer only
+  (in the rclone configuration file). They are never transmitted to any third party.</li>
+  <li>The Application operator (the account owner) does not operate any server that receives
+  Google user data.</li>
+</ul>
+
+<h2>5. Sharing with third parties</h2>
+<p>No Google user data is sold, shared, transferred, or disclosed to any third party. The
+Application interacts directly and exclusively with the Google Drive API on behalf of its
+single user.</p>
+
+<h2>6. Data deletion</h2>
+<p>The owner may revoke the Application's access at any time through their
+<a href="https://myaccount.google.com/permissions">Google Account permissions page</a>,
+which immediately invalidates all tokens. Files already copied to Drive can be deleted
+manually at any time.</p>
+
+<h2>7. Changes to this policy</h2>
+<p>This policy may be updated if the Application's behavior changes. The date above reflects
+the latest revision.</p>
+
+<h2>8. Contact</h2>
+<p>Questions about this policy: <a href="mailto:derkiengo@gmail.com">derkiengo@gmail.com</a></p>
+</body>
+</html>
